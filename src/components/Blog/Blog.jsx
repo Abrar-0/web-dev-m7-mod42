@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import { PiBookmarkSimpleLight } from "react-icons/pi";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead}) => {
   const {
+    id,
     title,
     cover,
     reading_time,
@@ -12,7 +13,7 @@ const Blog = ({ blog }) => {
     hashtags,
   } = blog;
 
-  console.log(blog);
+  //onsole.log(blog);
   return (
     <div className="my-8 border-b-2">
       <img className="w-full" src={cover} alt="" />
@@ -26,7 +27,7 @@ const Blog = ({ blog }) => {
         </div>
         <div className="flex items-center">
           <span>{reading_time} min read</span>
-          <button className="text-2xl"><PiBookmarkSimpleLight /></button>
+          <button onClick={() => handleAddToBookmark(blog)} className="text-2xl"><PiBookmarkSimpleLight /></button>
         </div>
       </div>
       <h2 className="text-4xl">{title}</h2>
@@ -37,13 +38,15 @@ const Blog = ({ blog }) => {
           </span>
         ))}
       </p>
-      <button className="pb-9">Mark as Read</button>
+      <button className="pb-9" onClick={()=> handleMarkAsRead(id,reading_time)}>Mark as Read</button>
     </div>
   );
 };
 
 Blog.PropTypes = {
   blog: PropTypes.object.isRequired,
+  handleAddToBookmark: PropTypes.func,
+  handleMarkAsRead: PropTypes.func
 };
 
 export default Blog;
