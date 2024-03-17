@@ -1,0 +1,53 @@
+[
+    {
+      "id": "001",
+      "cover": "https://files.catbox.moe/ujxgch.jpg",
+      "title": "Exploring the Mysteries of Quantum Mechanics",
+      "author": "Dr. Amanda Johnson",
+      "author_img": "https://files.catbox.moe/tpkya9.jpg",
+      "posted_date": "March 17, 2024",
+      "reading_time": 10,
+      "hashtags": ["#QuantumPhysics", "#Science", "#Research"]
+    },
+    {
+      "id": "002",
+      "cover": "https://files.catbox.moe/kfma47.jpg",
+      "title": "The Art of Effective Communication in the Digital Age",
+      "author": "John Smith",
+      "author_img": "https://files.catbox.moe/dbn6na.jpeg",
+      "posted_date": "March 16, 2024",
+      "reading_time": 8,
+      "hashtags": ["#Communication", "#Digital", "#Skills"]
+    },
+    {
+      "id": "003",
+      "cover": "https://files.catbox.moe/rbclaq.jpg",
+      "title": "Mastering the Basics of Python Programming",
+      "author": "Jane Doe",
+      "author_img": "https://files.catbox.moe/dbn6na.jpeg",
+      "posted_date": "March 15, 2024",
+      "reading_time": 12,
+      "hashtags": ["#Python", "#Programming", "#CodingBasics"]
+    },
+    {
+      "id": "004",
+      "cover": "https://files.catbox.moe/kfma47.jpg",
+      "title": "Unlocking the Secrets of Ancient Civilizations",
+      "author": "Dr. Michael Rodriguez",
+      "author_img": "https://files.catbox.moe/tpkya9.jpg",
+      "posted_date": "March 14, 2024",
+      "reading_time": 15,
+      "hashtags": ["#History", "#Archaeology", "#Civilizations"]
+    },
+    {
+      "id": "005",
+      "cover": "https://files.catbox.moe/rbclaq.jpg",
+      "title": "The Power of Positive Thinking: A Guide to Mental Well-being",
+      "author": "Sarah Thompson",
+      "author_img": "https://files.catbox.moe/dbn6na.jpeg",
+      "posted_date": "March 13, 2024",
+      "reading_time": 7,
+      "hashtags": ["#MentalHealth", "#Positivity", "#Wellness"]
+    }
+  ]
+  
